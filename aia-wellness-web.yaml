@@ -1,0 +1,61 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wellness-web
+  namespace: nsp-mm-u-member 
+spec:
+  selector:
+      matchLabels:
+        app-name: wellness-web-pod
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app-name: wellness-web-pod
+    spec:
+      containers:
+        - name: wellness-web
+          image: acrmm01seanshared01.azurecr.io/mm/wellness/web/wellness-web:20210604
+          ports:
+            - containerPort: 4444
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wellness-web-service
+  namespace: nsp-mm-u-member
+spec:
+    type: ClusterIP
+    ports:
+    - port: 4444
+    selector:
+      app-name: wellness-web-pod
+---
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+	name: wellness-ingress
+	namespace: nsp-mm-u-member
+	annotations:
+		kubernetes.io/ingress.class: nginx
+		nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /web/$2
+    nginx.ingress.kubernetes.io/proxy-body-size: 10m
+	spec:
+    tls:
+    - hosts:
+      - wellnessuat.aia.com.mm
+      secretName: ingress-nginx-tls-u-mmwellnessingress-v3
+		rules:
+    - host: wellnessuat.aia.com.mm
+    - http:
+        paths:
+        -backend:
+					  serviceName: wellness-web-service
+					  servicePort: 4444
+				  path: /web(/|$)(.*)
+  status:
+    loadBalancer:
+      ingress:
+      - ip: 10.217.144.76
