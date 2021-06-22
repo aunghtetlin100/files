@@ -1,0 +1,120 @@
+2021-04-20 17:27:10.099  INFO DESKTOP-E22SU4C --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 6.1.6.Final
+2021-04-20 17:27:10.263  INFO DESKTOP-E22SU4C --- [  restartedMain] c.a.a.w.w.WellnessApiApplication         : Starting WellnessApiApplication on DESKTOP-E22SU4C with PID 21700 (D:\AIA-Wellness\Deploy\target\classes started by DELL in D:\AIA-Wellness\Deploy)
+2021-04-20 17:27:10.277 DEBUG DESKTOP-E22SU4C --- [  restartedMain] c.a.a.w.w.WellnessApiApplication         : Running with Spring Boot v2.3.5.RELEASE, Spring v5.2.10.RELEASE
+2021-04-20 17:27:10.279  INFO DESKTOP-E22SU4C --- [  restartedMain] c.a.a.w.w.WellnessApiApplication         : No active profile set, falling back to default profiles: default
+2021-04-20 17:27:10.470  INFO DESKTOP-E22SU4C --- [  restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in C:\Users\DELL\.m2\repository\io\grpc\grpc-netty-shaded\1.13.1\grpc-netty-shaded-1.13.1.jar referenced one or more files that do not exist: file:/C:/Users/DELL/.m2/repository/io/grpc/grpc-netty-shaded/1.13.1/grpc-core-1.13.1.jar,file:/C:/Users/DELL/.m2/repository/io/grpc/grpc-netty-shaded/1.13.1/grpc-context-1.13.1.jar,file:/C:/Users/DELL/.m2/repository/io/grpc/grpc-netty-shaded/1.13.1/gson-2.7.jar,file:/C:/Users/DELL/.m2/repository/io/grpc/grpc-netty-shaded/1.13.1/guava-20.0.jar,file:/C:/Users/DELL/.m2/repository/io/grpc/grpc-netty-shaded/1.13.1/error_prone_annotations-2.1.2.jar,file:/C:/Users/DELL/.m2/repository/io/grpc/grpc-netty-shaded/1.13.1/jsr305-3.0.0.jar,file:/C:/Users/DELL/.m2/repository/io/grpc/grpc-netty-shaded/1.13.1/opencensus-contrib-grpc-metrics-0.12.3.jar,file:/C:/Users/DELL/.m2/repository/io/grpc/grpc-netty-shaded/1.13.1/opencensus-api-0.12.3.jar
+2021-04-20 17:27:10.472  INFO DESKTOP-E22SU4C --- [  restartedMain] o.s.b.d.r.ChangeableUrls                 : The Class-Path manifest attribute in C:\Users\DELL\.m2\repository\com\google\code\findbugs\findbugs\3.0.1\findbugs-3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/DELL/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/bcel-6.0-SNAPSHOT.jar,file:/C:/Users/DELL/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/dom4j-1.6.1.jar,file:/C:/Users/DELL/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/jaxen-1.1.6.jar,file:/C:/Users/DELL/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/asm-debug-all-5.0.2.jar,file:/C:/Users/DELL/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/jsr305.jar,file:/C:/Users/DELL/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/jFormatString.jar,file:/C:/Users/DELL/.m2/repository/com/google/code/findbugs/findbugs/3.0.1/commons-lang-2.6.jar
+2021-04-20 17:27:10.473  INFO DESKTOP-E22SU4C --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-20 17:27:10.473  INFO DESKTOP-E22SU4C --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-20 17:27:18.175  INFO DESKTOP-E22SU4C --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-20 17:27:19.339  INFO DESKTOP-E22SU4C --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1134ms. Found 24 JPA repository interfaces.
+2021-04-20 17:27:20.861  INFO DESKTOP-E22SU4C --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@45a0d715' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-20 17:27:20.873  INFO DESKTOP-E22SU4C --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-20 17:27:21.782  INFO DESKTOP-E22SU4C --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8081 (http)
+2021-04-20 17:27:21.795  INFO DESKTOP-E22SU4C --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2021-04-20 17:27:21.795  INFO DESKTOP-E22SU4C --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-04-20 17:27:21.796  INFO DESKTOP-E22SU4C --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-20 17:27:22.332  INFO DESKTOP-E22SU4C --- [  restartedMain] o.a.c.c.C.[.[.[/api]                     : Initializing Spring embedded WebApplicationContext
+2021-04-20 17:27:22.332  INFO DESKTOP-E22SU4C --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 11847 ms
+2021-04-20 17:27:22.505 DEBUG DESKTOP-E22SU4C --- [  restartedMain] c.a.a.w.w.c.LoggingFilter                : Filter 'logFilter' configured for use
+2021-04-20 17:27:22.678  INFO DESKTOP-E22SU4C --- [pool-2-thread-1] c.m.a.a.AuthenticationAuthority          : [Correlation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e] Instance discovery was successful
+2021-04-20 17:27:26.158 ERROR DESKTOP-E22SU4C --- [pool-2-thread-1] c.m.a.a.AuthenticationContext            : [Correlation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e] Execution of class com.microsoft.aad.adal4j.AcquireTokenCallable failed.
+com.microsoft.aad.adal4j.AuthenticationException: {"error_description":"AADSTS700016: Application with identifier '1846943b-ad04-4808-aa13-4702d908b5c1' was not found in the directory 'windows.net'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.\r\nTrace ID: 4a86e527-7567-46e5-9f08-9910e6c95b00\r\nCorrelation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e\r\nTimestamp: 2021-04-20 10:57:26Z","error":"unauthorized_client","error_uri":"https:\/\/login.microsoftonline.com\/error?code=700016"}
+	at com.microsoft.aad.adal4j.AdalTokenRequest.executeOAuthRequestAndProcessResponse(AdalTokenRequest.java:129)
+	at com.microsoft.aad.adal4j.AuthenticationContext.acquireTokenCommon(AuthenticationContext.java:930)
+	at com.microsoft.aad.adal4j.AcquireTokenCallable.execute(AcquireTokenCallable.java:70)
+	at com.microsoft.aad.adal4j.AcquireTokenCallable.execute(AcquireTokenCallable.java:38)
+	at com.microsoft.aad.adal4j.AdalCallable.call(AdalCallable.java:47)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-04-20 17:27:26.167  WARN DESKTOP-E22SU4C --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getDataSource' defined in class path resource [com/aia/ace/wellness/webapi/config/DataSourceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'getDataSource' threw exception; nested exception is java.util.concurrent.ExecutionException: com.microsoft.aad.adal4j.AuthenticationException: {"error_description":"AADSTS700016: Application with identifier '1846943b-ad04-4808-aa13-4702d908b5c1' was not found in the directory 'windows.net'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.\r\nTrace ID: 4a86e527-7567-46e5-9f08-9910e6c95b00\r\nCorrelation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e\r\nTimestamp: 2021-04-20 10:57:26Z","error":"unauthorized_client","error_uri":"https:\/\/login.microsoftonline.com\/error?code=700016"}
+2021-04-20 17:27:26.173  INFO DESKTOP-E22SU4C --- [  restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2021-04-20 17:27:26.243  INFO DESKTOP-E22SU4C --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-04-20 17:27:26.460 ERROR DESKTOP-E22SU4C --- [  restartedMain] o.s.b.SpringApplication                  : Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getDataSource' defined in class path resource [com/aia/ace/wellness/webapi/config/DataSourceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'getDataSource' threw exception; nested exception is java.util.concurrent.ExecutionException: com.microsoft.aad.adal4j.AuthenticationException: {"error_description":"AADSTS700016: Application with identifier '1846943b-ad04-4808-aa13-4702d908b5c1' was not found in the directory 'windows.net'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.\r\nTrace ID: 4a86e527-7567-46e5-9f08-9910e6c95b00\r\nCorrelation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e\r\nTimestamp: 2021-04-20 10:57:26Z","error":"unauthorized_client","error_uri":"https:\/\/login.microsoftonline.com\/error?code=700016"}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:797)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:227)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1356)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1203)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.aia.ace.wellness.webapi.WellnessApiApplication.main(WellnessApiApplication.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'getDataSource' defined in class path resource [com/aia/ace/wellness/webapi/config/DataSourceConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'getDataSource' threw exception; nested exception is java.util.concurrent.ExecutionException: com.microsoft.aad.adal4j.AuthenticationException: {"error_description":"AADSTS700016: Application with identifier '1846943b-ad04-4808-aa13-4702d908b5c1' was not found in the directory 'windows.net'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.\r\nTrace ID: 4a86e527-7567-46e5-9f08-9910e6c95b00\r\nCorrelation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e\r\nTimestamp: 2021-04-20 10:57:26Z","error":"unauthorized_client","error_uri":"https:\/\/login.microsoftonline.com\/error?code=700016"}
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:483)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:884)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:788)
+	... 34 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.sql.DataSource]: Factory method 'getDataSource' threw exception; nested exception is java.util.concurrent.ExecutionException: com.microsoft.aad.adal4j.AuthenticationException: {"error_description":"AADSTS700016: Application with identifier '1846943b-ad04-4808-aa13-4702d908b5c1' was not found in the directory 'windows.net'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.\r\nTrace ID: 4a86e527-7567-46e5-9f08-9910e6c95b00\r\nCorrelation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e\r\nTimestamp: 2021-04-20 10:57:26Z","error":"unauthorized_client","error_uri":"https:\/\/login.microsoftonline.com\/error?code=700016"}
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:650)
+	... 48 more
+Caused by: java.util.concurrent.ExecutionException: com.microsoft.aad.adal4j.AuthenticationException: {"error_description":"AADSTS700016: Application with identifier '1846943b-ad04-4808-aa13-4702d908b5c1' was not found in the directory 'windows.net'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.\r\nTrace ID: 4a86e527-7567-46e5-9f08-9910e6c95b00\r\nCorrelation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e\r\nTimestamp: 2021-04-20 10:57:26Z","error":"unauthorized_client","error_uri":"https:\/\/login.microsoftonline.com\/error?code=700016"}
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig.getAccessToken(DataSourceConfig.java:69)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig.getDataSource(DataSourceConfig.java:47)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig$$EnhancerBySpringCGLIB$$7a9508e3.CGLIB$getDataSource$0(<generated>)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig$$EnhancerBySpringCGLIB$$7a9508e3$$FastClassBySpringCGLIB$$32bc1bae.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.aia.ace.wellness.webapi.config.DataSourceConfig$$EnhancerBySpringCGLIB$$7a9508e3.getDataSource(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 49 more
+Caused by: com.microsoft.aad.adal4j.AuthenticationException: {"error_description":"AADSTS700016: Application with identifier '1846943b-ad04-4808-aa13-4702d908b5c1' was not found in the directory 'windows.net'. This can happen if the application has not been installed by the administrator of the tenant or consented to by any user in the tenant. You may have sent your authentication request to the wrong tenant.\r\nTrace ID: 4a86e527-7567-46e5-9f08-9910e6c95b00\r\nCorrelation ID: 41cda642-aea2-486b-a277-ef5c3bf0710e\r\nTimestamp: 2021-04-20 10:57:26Z","error":"unauthorized_client","error_uri":"https:\/\/login.microsoftonline.com\/error?code=700016"}
+	at com.microsoft.aad.adal4j.AdalTokenRequest.executeOAuthRequestAndProcessResponse(AdalTokenRequest.java:129)
+	at com.microsoft.aad.adal4j.AuthenticationContext.acquireTokenCommon(AuthenticationContext.java:930)
+	at com.microsoft.aad.adal4j.AcquireTokenCallable.execute(AcquireTokenCallable.java:70)
+	at com.microsoft.aad.adal4j.AcquireTokenCallable.execute(AcquireTokenCallable.java:38)
+	at com.microsoft.aad.adal4j.AdalCallable.call(AdalCallable.java:47)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
